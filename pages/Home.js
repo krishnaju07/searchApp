@@ -21,7 +21,7 @@ export default function HomeScreen() {
         setData(json.products);
         setFilteredData(json.products);
       } catch (error) {
-        console.error("Error fetching data:", error);
+        console.error("Err", error);
       }
     };
 
